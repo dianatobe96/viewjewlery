@@ -1,0 +1,6 @@
+The bug was occurring in the file server.js in the "find" route. 
+
+The first thing I did was check the Browser Console to look for any client-side errors or warnings. Then, I carefully reviewed the code and 
+examined the relevant sections, especially those mentioned in the error messages, to spot any syntax errors or incorrect function calls. 
+Additionally, I validated the EJS syntax to ensure that my EJS templates had correct syntax by checking for unclosed tags, missing brackets,
+ and incorrect expressions.  I found an error on line 39 of the route where a letter was missing.
